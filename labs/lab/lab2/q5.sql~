@@ -1,0 +1,1 @@
+SELECT sum(capacity) FROM classroom GROUP BY building

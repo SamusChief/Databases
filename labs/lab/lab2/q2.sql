@@ -1,0 +1,1 @@
+SELECT section.course_id,section.building,classroom.room_number,classroom.capacity FROM section JOIN classroom ON (section.building=classroom.building AND section.room_number=classroom.room_number) WHERE section.year=2010
